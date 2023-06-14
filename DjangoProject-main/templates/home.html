@@ -1,0 +1,16 @@
+{%extends 'base.html'%}
+
+{%load static %}
+
+
+{%block content%}
+	<section class="feature">
+		<div class="feature-content">
+			<h1>Todo</h1>
+			<p>Recommendation Engine helps you to choose the best service for you.</p>	
+			<a class="btn btn-primary cta" href="#">Get Started</a>
+		</div>
+		{% load static %}
+		<img src="{%static 'images/feature.jpg'%}" alt="" class="feature-image">
+	</section>
+{%endblock content%}
